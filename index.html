@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<title>Berlińskie Ulice</title>
+<body>
+
+<h2>Berlińskie Ulice</h2>
+<p>Zamień złotówki na berlińskie ulice:</p>
+
+<p>
+  <label>Kwota</label>
+  <input id="input" type="number" placeholder="Złoty" oninput="Converter(this.value)" onchange="Converter(this.value)">
+</p>
+<p>Taka kwota kwota leży na <span id="output"></span> metrach berlińskich ulic</p>
+
+<script>
+function Converter(valNum) {
+  document.getElementById("output").innerHTML=valNum*0.1067;
+}
+</script>
+
+</body>
+</html>
