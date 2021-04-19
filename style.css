@@ -3,13 +3,15 @@ body{
     background-size: cover;
     color: white;
 }
-.container{
+@media (min-device-width: 1000px) 
+{
+    .container{
     text-align: center;  
 }
-input{ margin-top: 50px;background-color: rgba(255, 255, 0, 0);border: 1px solid rgb(255, 252, 252);color: rgb(163, 163, 163); width: 525px; height: 80px; font-size: 55px;}
+input{ margin-top: 50px;background-color: rgba(255, 255, 0, 0);border: 1px solid rgb(255, 252, 252);color: rgb(163, 163, 163); width: 825px; height: 80px; font-size: 55px;}
 .BU{
     margin-top: 80px;
-    font-size: 80px;
+    font-size: 130px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .zznbu{
@@ -23,10 +25,44 @@ input{ margin-top: 50px;background-color: rgba(255, 255, 0, 0);border: 1px solid
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .out{
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mbu{font-size: 55px;font-family: Georgia, 'Times New Roman', Times, serif;}
+img{
+    margin-top: 50px;
+}
+
+}
+
+@media (max-device-width: 1000px) 
+{.container{
+    text-align: center;  
+}
+input{ margin-top: 50px;background-color: rgba(255, 255, 0, 0);border: 1px solid rgb(255, 252, 252);color: rgb(163, 163, 163); width: 225px; height: 50px; font-size: 55px;}
+.BU{
+    margin-top: 80px;
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.zznbu{
+    margin-top: -50px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Tkln{
+    margin-top: 40px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.out{
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .mbu{font-size: 40px;font-family: Georgia, 'Times New Roman', Times, serif;}
 img{
-    margin-top: 50px;
+    margin-top: 40px;
+}
+
+
 }
