@@ -7,7 +7,7 @@ body{
 .container{
     text-align: center;  
 }
-input{ margin-top: 50px;background-color: rgba(255, 255, 0, 0);border: 1px solid rgb(255, 252, 252);color: rgb(163, 163, 163); width: 825px; height: 321px; font-size: 55px;}
+input{ margin-top: 50px;background-color: rgba(255, 255, 0, 0);border: 1px solid rgb(255, 252, 252);color: rgb(163, 163, 163); width: 825px; height: 80px; font-size: 55px;}
 .BU{
     margin-top: 200px;
     font-size: 130px;
