@@ -7,27 +7,27 @@ body{
 .container{
     text-align: center;  
 }
-input{ margin-top: 50px;background-color: rgba(255, 255, 0, 0);border: 1px solid rgb(255, 252, 252);color: rgb(163, 163, 163); width: 825px; height: 321px; font-size: 55mm;}
+input{ margin-top: 50px;background-color: rgba(255, 255, 0, 0);border: 1px solid rgb(255, 252, 252);color: rgb(163, 163, 163); width: 825px; height: 321px; font-size: 55px;}
 .BU{
-    margin-top: 200mm;
-    font-size: 130mm;
+    margin-top: 200px;
+    font-size: 130px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .zznbu{
-    margin-top: -50mm;
-    font-size: 55mm;
+    margin-top: -50px;
+    font-size: 55px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .Tkln{
-    margin-top: 50mm;
-    font-size: 55mm;
+    margin-top: 50px;
+    font-size: 55px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .out{
-    font-size: 55mm;
+    font-size: 55px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.mbu{font-size: 55mm;font-family: Georgia, 'Times New Roman', Times, serif;}
+.mbu{font-size: 55px;font-family: Georgia, 'Times New Roman', Times, serif;}
 img{
-    margin-top: 150mm;
+    margin-top: 150px;
 }
