@@ -1,3 +1,4 @@
+
 body{
     background: url("https://i.imgur.com/LEq7smE.png") no-repeat center center fixed;
     background-size: cover;
@@ -39,7 +40,7 @@ img{
 {.container{
     text-align: center;  
 }
-input{ margin-top: 50px;background-color: rgba(255, 255, 0, 0);border: 1px solid rgb(255, 252, 252);color: rgb(163, 163, 163); width: 225px; height: 50px; font-size: 55px;text-align: center;}
+input{ margin-top: 50px;background-color: rgba(255, 255, 0, 0);border: 1px solid rgb(255, 252, 252);color: rgb(163, 163, 163); width: 225px; height: 50px; font-size: 40px;text-align: center;}
 .BU{
     margin-top: 80px;
     font-size: 50px;
@@ -47,7 +48,6 @@ input{ margin-top: 50px;background-color: rgba(255, 255, 0, 0);border: 1px solid
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .zznbu{
-    margin-top: -50px;
     font-size: 30px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
