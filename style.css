@@ -5,11 +5,29 @@ body{
     color: white;
 }
 .container{
-    margin:auto;
-    width: 400px;  
     text-align: center;  
 }
-input{background-color: rgba(255, 255, 0, 0);border: 1px solid rgb(255, 252, 252);color: rgb(163, 163, 163);}
-
-
-
+input{ margin-top: 50px;background-color: rgba(255, 255, 0, 0);border: 1px solid rgb(255, 252, 252);color: rgb(163, 163, 163); width: 825px; height: 80px; font-size: 55px;}
+.BU{
+    margin-top: 200px;
+    font-size: 130px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.zznbu{
+    margin-top: -50px;
+    font-size: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Tkln{
+    margin-top: 50px;
+    font-size: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.out{
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mbu{font-size: 55px;font-family: Georgia, 'Times New Roman', Times, serif;}
+img{
+    margin-top: 150px;
+}

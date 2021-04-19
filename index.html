@@ -7,36 +7,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Berlińskie Ulice</title>
-    <style>
-
-
-    </style>
+    <link rel="shortcut icon" href="1.jpg">
 </head>
 <body>
     <div class="container">
         <div class="conventer">
-            <p class="BU">
-                <h1>BERLIŃSKIE ULICE</h1>
-            </p>
-            <p class="zznbu">
+            <h1 class="BU">
+                <span>BERLIŃSKIE ULICE</span>
+            </h1>
+            <div class="zznbu">
                 <span>Zamień Złotówki na Berlińskie ulice</span>
-            </p>
-            <p class="in">
+            </div>
+            <div class="in">
                 <input id="input" type="number" placeholder="Złoty" oninput="Converter(this.value)" onchange="Converter(this.value)">
-            </p>
-            <p class="Tkln">
-                <span>Taka kwota leży na</span>
-            </p>
-            <p class="out">
+            </div>
+            <div class="Tkln">
+                <span >Taka kwota leży na</span>
+            </div>
+            <div class="out">
                 <span id="output">0.00</span>
-            </p>
-            <p class="mbu">
-                <span>metrach berlińskich ulic</span>
-            </p>
-            <img src="logo.png" alt="logo">
+            </div>
+            <div class="mbu">
+                <span ></span>metrach berlińskich ulic</span>
+            </div>
+
             
         <div>
     </div>
+    <a href="https://www.facebook.com/Obliczeniaianalizywrapie/"><img src="logo.png" alt="logo" width="250" height="250">
+
     <script>
         function Converter(valNum) {
         var ulica=valNum/0.1067
