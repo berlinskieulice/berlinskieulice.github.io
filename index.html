@@ -1,23 +1,47 @@
 <!DOCTYPE html>
-<html>
-<title>Berlińskie Ulice</title>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Przelicznik walutowy na berlińskie ulice by Oblicznia i Analizy w Rapie">
+    <meta name="keywords" content="Obliczenia i analizy w rapoie, berlińskie ulice, sentino">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Berlińskie Ulice</title>
+    <style>
+
+
+    </style>
+</head>
 <body>
-
-<h2>Berlińskie Ulice</h2>
-<p>Zamień złotówki na berlińskie ulice:</p>
-
-<p>
-  <label>Kwota</label>
-  <input id="input" type="number" placeholder="Złoty" oninput="Converter(this.value)" onchange="Converter(this.value)">
-</p>
-<p>Taka kwota kwota leży na <span id="output"></span> metrach berlińskich ulic</p>
-
-<script>
-function Converter(valNum) {
-var ulica=valNum/0.1067
-  document.getElementById("output").innerHTML=ulica.toFixed(2);
-}
-</script>
-
-</body>
+    <div class="container">
+        <div class="conventer">
+            <p class="BU">
+                <h1>BERLIŃSKIE ULICE</h1>
+            </p>
+            <p class="zznbu">
+                <span>Zamień Złotówki na Berlińskie ulice</span>
+            </p>
+            <p class="in">
+                <input id="input" type="number" placeholder="Złoty" oninput="Converter(this.value)" onchange="Converter(this.value)">
+            </p>
+            <p class="Tkln">
+                <span>Taka kwota leży na</span>
+            </p>
+            <p class="out">
+                <span id="output"></span>
+            </p>
+            <p class="mbu">
+                <span>metrach berlińskich ulic</span>
+            </p>
+            <img src="1.png" alt="logo">
+            
+        <div>
+    </div>
+    <script>
+        function Converter(valNum) {
+        var ulica=valNum/0.1067
+          document.getElementById("output").innerHTML=ulica.toFixed(2);
+        }
+        </script>
+    </body>
 </html>

@@ -1,0 +1,11 @@
+
+body{
+    background: url("https://i.imgur.com/LEq7smE.png") no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+.container{
+    margin:auto;
+    width: 400px;  
+    text-align: center;  
+}
